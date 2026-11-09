@@ -1,0 +1,16 @@
+edit_distance.png
+Edit distance: subproblems evaluated vs string length
+At n = 12 the plain recursion made 377,393,953 calls on disjoint strings, 88,257,628 on random strings and 13 on identical strings, while the table filled 169 cells on every input.
+
+two_rows_vs_table.png
+Edit distance: table compared with two rows
+At n = 4,000 the table allocated 16,008,001 ints and two rows 8,002, and the table's median time was 1.09× that of two rows on random strings, 1.33× on disjoint strings and 1.79× on identical strings.
+
+string_search.png
+String search: comparisons per text character vs pattern length
+At m = 256 Naive made 255.93 comparisons per text character on worst_case and KMP made 2.00, while on random text Naive made 1.04 and KMP 1.04.
+
+performance_comparison.png
+String search: Naive time compared with KMP time
+At n = 2,000,000 and m = 64 Naive took 23.8× as long as KMP on worst_case, 4.03× on all_matches, 1.18× on random and 1.13× on best_case.
+

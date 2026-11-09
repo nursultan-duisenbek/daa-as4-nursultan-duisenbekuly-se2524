@@ -1,0 +1,9 @@
+configuration=full
+seed=42
+timed_runs_per_case=5
+java.version=21.0.12.1
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor=Ubuntu
+os=Linux 6.18.44-fc-v310 amd64
+available_processors=2
+max_heap_mb=1494
